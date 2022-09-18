@@ -1,0 +1,48 @@
+header{
+   height: fit-content;
+   padding-top: 2rem;
+   overflow: hidden;
+}
+
+.header__container{
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Action buttons **/
+
+.action{
+    margin-top: 1 rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/** Social buttons **/
+
+.header__socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.me{
+    background: linear-gradient(
+        var(--color-primary), transparent
+    );
+    width: 375px;
+    height: 550px;
+    margin-top: 2rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
