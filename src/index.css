@@ -52,6 +52,11 @@ a:hover{
     color: var(--color-white);
 }
 
+section{
+    margin-top: 5rem;
+    min-height: 100vh;
+}
+
 .btn{
     width:max-content;
     display: inline-block;

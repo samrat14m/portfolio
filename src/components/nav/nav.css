@@ -1,0 +1,19 @@
+nav{
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    padding: 0.8rem 1.5rem;
+    align-self: center;
+    display: flex;
+    gap:0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a{
+    background: transparent;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    color:var(--color-light);
+    font-size: 1rem;
+}
