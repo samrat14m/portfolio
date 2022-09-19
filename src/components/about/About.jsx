@@ -29,7 +29,7 @@ const About = () => {
             illo blanditiis. Officia quas error delectus quasi nisi obcaecati
             quod pariatur quam distinctio, eligendi incidunt.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary about__btn">
             Let's Talk
           </a>
         </div>

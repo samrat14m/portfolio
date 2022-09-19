@@ -4,11 +4,11 @@
     gap: 2.5rem;
 }
 
-.portfolio__item{
+.portfolio__item{ 
    background: var(--color-bg-variant);
    padding: 1.5rem;
    border-radius: 2rem;
-   border: 1px solid transparent;
+   border: 2px solid transparent;
    transition: var(--transition);
 }
 
@@ -26,6 +26,10 @@
     margin: 1.2rem 0 2rem;
 }
 
+article a{
+    margin:  1rem 0.5rem 0 0 ;
+}
+
 /** MEDIA QUERIES**/
 
 @media screen and (max-width: 1024px) {
@@ -35,6 +39,10 @@
 }
 
 @media screen and (max-width: 660px) {
+    .portfolio__item{
+        width:80%;
+        margin-left: 10%;
+    }
         .portfolio__container {
                 grid-template-columns: 1fr ;
             }

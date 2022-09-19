@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    margin-bottom: 5rem;
 }
 
 .about__me{
@@ -28,6 +27,11 @@
 
 .about__me img:hover{
     transform: rotate(0);
+    cursor: pointer;
+}
+
+.about__btn{
+    margin: 1.5rem 0;
 }
 
 /** MEDIA QUERY **/
@@ -35,7 +39,6 @@
 @media screen and (max-width:660px) {
   .about__container{
     grid-template-columns: 1fr;
-    margin-bottom: 3rem;
   }
 
   .about__me{

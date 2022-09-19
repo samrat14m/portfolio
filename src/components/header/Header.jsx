@@ -1,8 +1,8 @@
 import React from "react";
 import "./header.css";
 import Action from "./Action";
-import ME from "../../assets/me.png";
 import SocialLink from "./SocialLink";
+import ME from "../../assets/me.png";
 
 const Header = () => {
   return (
@@ -11,11 +11,11 @@ const Header = () => {
         <h3>Hello I'm</h3>
         <h1> Saurabh Maurya</h1>
         <h3>Fullstack Developer</h3>
-        <Action />
-        <SocialLink />
         <div className="me">
           <img src={ME} alt="me" />
         </div>
+        <Action />
+        <SocialLink />
       </div>
     </header>
   );
