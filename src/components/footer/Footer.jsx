@@ -25,10 +25,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="http://facebook.com">
+        <a href="https://www.facebook.com/profile.php?id=100022645096138">
           <AiFillFacebook />
         </a>
-        <a href="http://instagram.com">
+        <a href="https://www.instagram.com/samraat.143/">
           <FaInstagramSquare />
         </a>
         <a href="http://twitter.com">
