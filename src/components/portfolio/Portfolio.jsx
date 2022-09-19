@@ -24,6 +24,7 @@ const Portfolio = () => {
             href="https://github.com/samrat14m/css6"
             className="btn"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -31,6 +32,7 @@ const Portfolio = () => {
             href="https://samrat14m.github.io/css6/"
             className="btn btn-primary"
             target="_blank"
+            rel="noreferrer"
           >
             Live Demo
           </a>
@@ -44,6 +46,7 @@ const Portfolio = () => {
             href="https://github.com/samrat14m/calculator"
             className="btn"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -51,6 +54,7 @@ const Portfolio = () => {
             href="https://samrat14m.github.io/calculator/"
             className="btn btn-primary"
             target="_blank"
+            rel="noreferrer"
           >
             Live Demo
           </a>
@@ -64,6 +68,7 @@ const Portfolio = () => {
             href="https://github.com/samrat14m/world_clock"
             className="btn"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -71,6 +76,7 @@ const Portfolio = () => {
             href="https://samrat14m.github.io/world_clock/"
             className="btn btn-primary"
             target="_blank"
+            rel="noreferrer"
           >
             Live Demo
           </a>
@@ -84,6 +90,7 @@ const Portfolio = () => {
             href="https://github.com/samrat14m/blogAppNode"
             className="btn"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -91,6 +98,7 @@ const Portfolio = () => {
             href="https://peppy-concha-81dfef.netlify.app/"
             className="btn btn-primary"
             target="_blank"
+            rel="noreferrer"
           >
             Live Demo
           </a>
@@ -104,6 +112,7 @@ const Portfolio = () => {
             href="https://github.com/samrat14m/css5"
             className="btn"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -111,6 +120,7 @@ const Portfolio = () => {
             href="https://samrat14m.github.io/css5/"
             className="btn btn-primary"
             target="_blank"
+            rel="noreferrer"
           >
             Live Demo
           </a>
@@ -124,6 +134,7 @@ const Portfolio = () => {
             href="https://github.com/samrat14m/digital-clock"
             className="btn"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -131,6 +142,7 @@ const Portfolio = () => {
             href="https://samrat14m.github.io/digital-clock/"
             className="btn btn-primary"
             target="_blank"
+            rel="noreferrer"
           >
             Live Demo
           </a>

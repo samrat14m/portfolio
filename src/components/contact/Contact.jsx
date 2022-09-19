@@ -3,30 +3,10 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_zwq4wub",
-        "template_pf4sfv4",
-        form.current,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
     e.target.reset();
   };
 
@@ -46,7 +26,11 @@ const Contact = () => {
               <br />
               @gmail.com
             </h5>
-            <a href="mailto:saurabhmaurya14031997@gmail.com" target="_blank">
+            <a
+              href="mailto:saurabhmaurya14031997@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -54,7 +38,11 @@ const Contact = () => {
             <FaFacebookMessenger className="contact__option-icon" />
             <h4>Messanger</h4>
             <h5>Saurabh Maurya</h5>
-            <a href="http://m.me/100022645096138" target="_blank">
+            <a
+              href="http://m.me/100022645096138"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -65,12 +53,13 @@ const Contact = () => {
             <a
               href="http://api.whatsapp.com/send?phone=9340954961"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form onSubmit={sendEmail}>
           <input
             type="text"
             name="name"

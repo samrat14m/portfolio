@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiMessageSquareDetail, BiBookmarks } from "react-icons/bi";
-import { GrProjects } from "react-icons/gr";
+
 const NavBar = () => {
   return (
     <div className="navbar">
