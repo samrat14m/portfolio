@@ -19,12 +19,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
-          <a href="https://github.com/" className="btn">
+          <h3>A Simple Website Layout (HTML/CSS)</h3>
+          <a
+            href="https://github.com/samrat14m/css6"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
           <a
-            href="https://github.com/"
+            href="https://samrat14m.github.io/css6/"
             className="btn btn-primary"
             target="_blank"
           >
@@ -35,12 +39,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
-          <a href="https://github.com/" className="btn">
+          <h3>Functional Calculator</h3>
+          <a
+            href="https://github.com/samrat14m/calculator"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
           <a
-            href="https://github.com/"
+            href="https://samrat14m.github.io/calculator/"
             className="btn btn-primary"
             target="_blank"
           >
@@ -51,12 +59,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
-          <a href="https://github.com/" className="btn">
+          <h3>World Clock (24hr/12hr adjustable)</h3>
+          <a
+            href="https://github.com/samrat14m/world_clock"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
           <a
-            href="https://github.com/"
+            href="https://samrat14m.github.io/world_clock/"
             className="btn btn-primary"
             target="_blank"
           >
@@ -67,12 +79,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
-          <a href="https://github.com/" className="btn">
+          <h3>Blog Webiste (React/NodeJS/ExpressJS)</h3>
+          <a
+            href="https://github.com/samrat14m/blogAppNode"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
           <a
-            href="https://github.com/"
+            href="https://peppy-concha-81dfef.netlify.app/"
             className="btn btn-primary"
             target="_blank"
           >
@@ -83,12 +99,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
-          <a href="https://github.com/" className="btn">
+          <h3>Simple 2D Animation</h3>
+          <a
+            href="https://github.com/samrat14m/css5"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
           <a
-            href="https://github.com/"
+            href="https://samrat14m.github.io/css5/"
             className="btn btn-primary"
             target="_blank"
           >
@@ -99,12 +119,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
-          <a href="https://github.com/" className="btn">
+          <h3>Alarm Clock</h3>
+          <a
+            href="https://github.com/samrat14m/digital-clock"
+            className="btn"
+            target="_blank"
+          >
             Github
           </a>
           <a
-            href="https://github.com/"
+            href="https://samrat14m.github.io/digital-clock/"
             className="btn btn-primary"
             target="_blank"
           >
