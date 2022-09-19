@@ -6,7 +6,7 @@ import { FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="'#" className="footer__logo">
         SAMRAT
       </a>
 

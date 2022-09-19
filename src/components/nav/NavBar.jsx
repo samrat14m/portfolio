@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <nav>
-        <a href="#">
+        <a href="'#">
           <AiOutlineHome />
         </a>
         <a href="#about">
