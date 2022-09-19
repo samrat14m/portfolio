@@ -1,4 +1,14 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 nav{
+    position: fixed;
+    top: 80vh;
+    left: calc(40vw-10px);
+    z-index: 5;
     background: rgba(0,0,0,0.3);
     width: max-content;
     padding: 0.8rem 1.5rem;
@@ -16,4 +26,10 @@ nav a{
     display: flex;
     color:var(--color-light);
     font-size: 1rem;
+}
+
+nav a:hover{
+    background-color: var(--color-light);
+    color:var(--color-bg);
+    font-weight: 600;
 }

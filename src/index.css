@@ -43,6 +43,23 @@ body{
     margin: 0 auto;
 }
 
+.section__headers{
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+.section__headers::before{
+    content: '';
+    height: 0.4rem;
+    width: 3rem;
+    background-color: var(--color-white);
+    display: inline-block;
+    position: relative;
+    left:-75px;
+    top:35px;
+    transform: rotate(90deg);
+}
+
 a{
     color: var(--color-primary);
     transition: var(--transition);

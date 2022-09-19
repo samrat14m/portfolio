@@ -5,8 +5,10 @@ import ME from "../../assets/me-about.jpg";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <div className="section__headers">
+        <h5>Get to know</h5>
+        <h2>About Me</h2>
+      </div>
 
       <div className="container about__container">
         <div className="about__me">

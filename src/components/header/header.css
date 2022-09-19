@@ -31,6 +31,7 @@ header{
     justify-content: center;
     gap: 2rem;
     margin-top: 1rem;
+    font-size: 150%;
 }
 
 .me{
@@ -38,9 +39,9 @@ header{
         var(--color-primary), transparent
     );
     width: 375px;
-    height: 550px;
+    height: 400px;
     margin-top: 2rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 10rem 10rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
